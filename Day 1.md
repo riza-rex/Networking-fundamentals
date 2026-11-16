@@ -26,3 +26,6 @@
  - **Adjacent Layer:** Layer only talk to the layer directly above or below them
  - **Same Layer:** The application layer on your computer talks directly to  the application layer on the server
  - **Modularity:** Because layers are separate, you can swap out a protocol(like changing  from ethernet to Wi-Fi) without rebuilding the whole network
+
+##LAB
+Successfully downdloaded cicso packet tracker
