@@ -17,12 +17,12 @@
   4. Local Network Layer: Moves data hop-to-hop within a single local network using MAC addresses
   5. Local Network Layer: Moves data hop-to-hop within a single local network using MAC addresses
 
-## Data Units (PDUs)
-- **Segment (Layer 4):** The message at Transport layer
-- **Packet (Layer 3):** The message at the internet layer
-- **Frame (Layer 2):** The final'package' sent over the physical wires
+ ## Data Units (PDUs)
+ - **Segment (Layer 4):** The message at Transport layer
+ - **Packet (Layer 3):** The message at the internet layer
+ - **Frame (Layer 2):** The final'package' sent over the physical wires
 
-## Layer Interaction
-- **Adjacent Layer:** Layer only talk to the layer directly above or below them
-- **Same Layer:** The application layer on your computer talks directly to  the application layer on the server
-- **Modularity:** Because layers are separate, you can swap out a protocol(like changing from ethernet to Wi-Fi) without rebuilding the whole network
+ ## Layer Interaction
+ - **Adjacent Layer:** Layer only talk to the layer directly above or below them
+ - **Same Layer:** The application layer on your computer talks directly to  the application layer on the server
+ - **Modularity:** Because layers are separate, you can swap out a protocol(like changing  from ethernet to Wi-Fi) without rebuilding the whole network
